@@ -53,9 +53,5 @@ public class Main {
         alice.talk();
         alice.stupid();
         alice.walking();
-
-
-
-
     }
 }
