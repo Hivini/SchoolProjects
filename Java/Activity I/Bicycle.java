@@ -2,7 +2,7 @@ public class Bicycle {
     // Atributes
     private String color;
     private float avSpeed;
-    private boolean trainingWheels;
+    private String trainingWheels;
 
     // Accesor methods
     // Color of the bicycle
@@ -20,10 +20,10 @@ public class Bicycle {
         return avSpeed;
     }
     // Does it have training wheels?
-    private void setTrainingWheels(boolean trainingWheels){
+    private void setTrainingWheels(String trainingWheels){
         this.trainingWheels = trainingWheels;
     }
-    public boolean getTrainingWheels(){
+    public String getTrainingWheels(){
         return trainingWheels;
     }
 
@@ -31,10 +31,10 @@ public class Bicycle {
     public Bicycle(){
         color = "Gray";
         avSpeed = 15.5f;
-        trainingWheels = false;
+        trainingWheels = "No";
     }
     // Custom Constructor
-    public Bicycle(String color, float avSpeed, boolean trainingWheels){
+    public Bicycle(String color, float avSpeed, String trainingWheels){
         this.color = color;
         this.avSpeed = avSpeed;
         this.trainingWheels = trainingWheels;

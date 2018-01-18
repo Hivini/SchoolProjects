@@ -31,7 +31,7 @@ public class Human {
     // Constructor
     public Human(){
         race = "Caucasian";
-        height = 170f;
+        height = 1.70f;
         weight = 65f;
     }
     // Custom Constructor
@@ -42,13 +42,13 @@ public class Human {
     }
 
     // Behaviors
-    public void Talk(){
+    public void talk(){
         System.out.println("The human is talking.");
     }
-    public void Stupid(){
+    public void stupid(){
         System.out.println("The human is being stupid.");
     }
-    public void Walking(){
+    public void walking(){
         System.out.println("The human is walking.");
     }
 }

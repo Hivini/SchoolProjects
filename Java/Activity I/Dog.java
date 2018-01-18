@@ -24,15 +24,15 @@ public class Dog {
     private void setAge(int age){
         this.age = age;
     }
-    public int age(){
+    public int getAge(){
         return age;
     }
 
     // Constructor
     public Dog(){
-        size = "Medium";
+        size = "Small";
         color = "Brown";
-        age = 7;
+        age = 1;
     }
     // Custom constructor
     public Dog(String size, String color, int age){
